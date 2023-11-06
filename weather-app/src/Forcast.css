@@ -1,0 +1,75 @@
+.search_and_icon{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar{
+    width: 100%;
+    padding: 7px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-top:1px solid white ;
+    border-bottom:0.5px solid white ;
+    padding-top: 15px;
+    caret-color: white;
+    color: White;
+    font-size: 18px;
+}
+::placeholder{
+    color: white;
+    font-size: 18px;
+}
+.fa{
+    color: white;
+    font-size: 23px;
+    background: #000000e3;
+    border-radius:5%;
+    padding: 10px;
+}
+.city_country div{
+    color: White;
+    font-size: 17px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -10px;
+    font-weight: bold;
+}
+li p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 15px 5px;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.808); */
+    font-weight: bold;
+}
+
+.li{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.808);
+}
+.content-header{
+    padding: 0px 20px;
+}
+.error-message{
+    text-align: center;
+}
+.header-container{
+    text-align: center;
+    padding: 20px 5px;
+
+}
+
+.icons-description{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
